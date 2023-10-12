@@ -669,13 +669,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iden3/binfileutils@npm:0.0.10":
-  version: 0.0.10
-  resolution: "@iden3/binfileutils@npm:0.0.10"
+"@iden3/binfileutils@npm:0.0.11":
+  version: 0.0.11
+  resolution: "@iden3/binfileutils@npm:0.0.11"
   dependencies:
-    fastfile: 0.0.19
+    fastfile: 0.0.20
     ffjavascript: ^0.2.48
-  checksum: cdeb8ac01e12f485d9fb236654c00d5d5016fc89eae24f7822885dd42f09935cbef601dbdd8a0c96dfb00ded9f4f623e0eec0b568aa86d16522cf77ce6f9498b
+  checksum: ca61db1325c7e038c6bd723c856eff5f2c82c76394db09d3350ef4f5b7525e3c9ab1f7429900ff5d3e9d26c5970bf5900e6126ccb5c5caa597c16a47336a6be8
   languageName: node
   linkType: hard
 
@@ -1724,202 +1724,258 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pcd/eddsa-pcd@npm:0.1.1, @pcd/eddsa-pcd@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@pcd/eddsa-pcd@npm:0.1.1"
+"@pcd/eddsa-pcd@npm:0.2.1, @pcd/eddsa-pcd@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "@pcd/eddsa-pcd@npm:0.2.1"
   dependencies:
-    "@pcd/passport-ui": 0.6.2
-    "@pcd/pcd-types": 0.6.3
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/util": 0.1.1
     chai: ^4.3.7
     circomlibjs: ^0.1.7
-    js-sha256: ^0.9.0
-    json-bigint: ^1.0.0
-    noble-ed25519: ^1.2.6
     react: ^18.2.0
     styled-components: ^5.3.9
     uuid: ^9.0.0
-  checksum: e851a57223ed36f37db53902504b4160a1dc94c5e3d203ad59cf9b0e4c1039b9bf254fe7285f8421ae402d99aa6087ca8533c777450f656c185a21775b6ad977
+  checksum: 21ab41dd7fa71644b51d477c31f992982821d89467407b62c0b6f78ea14e428c332943b3ef9591f2ee4566a472225623a57c9de0bee59a7ec3763617e83ee9a4
   languageName: node
   linkType: hard
 
-"@pcd/eddsa-ticket-pcd@npm:0.1.1":
-  version: 0.1.1
-  resolution: "@pcd/eddsa-ticket-pcd@npm:0.1.1"
+"@pcd/eddsa-ticket-pcd@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@pcd/eddsa-ticket-pcd@npm:0.2.1"
   dependencies:
-    "@pcd/eddsa-pcd": 0.1.1
-    "@pcd/passport-ui": 0.6.2
-    "@pcd/pcd-types": 0.6.3
-    "@pcd/rsa-pcd": 0.1.2
+    "@pcd/eddsa-pcd": 0.2.1
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/util": 0.1.1
     chai: ^4.3.7
     json-bigint: ^1.0.0
     lodash: ^4.17.21
     react: ^18.2.0
     styled-components: ^5.3.9
     uuid: ^9.0.0
-  checksum: b608a230861385443f60490f9422f73fb8c3a09e949c2b244a81b6bee48956ca8f5d4d85bded3111973a46324656e837e13d46d4d364c95bf3601bde4b04a951
+  checksum: 16c500e78e3e18633f24eead4a7f0e332a88440ac73340a098b0502a3503335f83a2015e91ced3041d59e2dcea9f3bc15bd5ae9e11cd3e870e5799c08b3a5212
   languageName: node
   linkType: hard
 
-"@pcd/passport-crypto@npm:0.6.2":
-  version: 0.6.2
-  resolution: "@pcd/passport-crypto@npm:0.6.2"
+"@pcd/emitter@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@pcd/emitter@npm:0.1.1"
   dependencies:
-    "@pcd/pcd-types": 0.6.3
-    "@pcd/semaphore-identity-pcd": 0.6.2
-    "@semaphore-protocol/identity": ^3.10.0
-    libsodium-wrappers: ^0.7.11
+    chai: ^4.3.7
+  checksum: e0e12198783485a7eefd7e1b75c67842f69be5615d715e32bdbd6c3fdedff614805f524532570ec6730ba2402cc9ea7f7149ec6d81272f732955fdbd81b2961d
+  languageName: node
+  linkType: hard
+
+"@pcd/passport-crypto@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/passport-crypto@npm:0.7.1"
+  dependencies:
+    libsodium-wrappers-sumo: ^0.7.11
     react: ^18.2.0
-  checksum: 571554d994d139ed666d4dfbb86d98cf423d2beaa84751859b16507f3a61016b585eb42b665195e70a0e8e94c5b73b6967e4b0d8922995859dbb7fa83beea2bd
+  checksum: eb426ee3d9084be4104aad7ebbd0f79fef7fbb09acbf84f1d94d2d0bcdd5bcbf72a673e32582052a72ebaa417b65e26a1e7db14b8d4f264ac8ba4293b4b6dd2d
   languageName: node
   linkType: hard
 
-"@pcd/passport-interface@npm:^0.6.2":
-  version: 0.6.2
-  resolution: "@pcd/passport-interface@npm:0.6.2"
+"@pcd/passport-interface@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/passport-interface@npm:0.7.1"
   dependencies:
-    "@pcd/eddsa-ticket-pcd": 0.1.1
-    "@pcd/passport-crypto": 0.6.2
-    "@pcd/pcd-types": 0.6.3
-    "@pcd/rsa-ticket-pcd": 0.1.2
-    "@pcd/semaphore-group-pcd": 0.6.2
-    "@pcd/semaphore-identity-pcd": 0.6.2
-    "@pcd/semaphore-signature-pcd": 0.6.2
-    "@pcd/webauthn-pcd": 0.6.2
-    "@semaphore-protocol/group": ^3.10.0
-    "@semaphore-protocol/identity": ^3.10.0
-    "@semaphore-protocol/proof": ^3.10.0
+    "@pcd/eddsa-ticket-pcd": 0.2.1
+    "@pcd/emitter": 0.1.1
+    "@pcd/passport-crypto": 0.7.1
+    "@pcd/pcd-collection": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/rsa-ticket-pcd": 0.2.1
+    "@pcd/semaphore-group-pcd": 0.7.1
+    "@pcd/semaphore-identity-pcd": 0.7.1
+    "@pcd/semaphore-signature-pcd": 0.7.1
+    "@pcd/util": 0.1.1
+    "@pcd/webauthn-pcd": 0.7.1
+    "@semaphore-protocol/group": ^3.11.0
+    "@semaphore-protocol/identity": ^3.11.0
+    "@semaphore-protocol/proof": ^3.11.0
+    js-sha256: ^0.9.0
     react: ^18.2.0
-  checksum: 0cc56d49b60a7b7f4efdd330da709d38c616d872e80a244beb27683182e898fca7b0fcf4a5d498b50ce1398d31a307eec9e82cf11aeb2d47cac48f2285484b6f
+    url-join: 4.0.1
+    uuid: ^9.0.0
+  checksum: 52912a5df4a87c42a5253637d68ea4d009c63fbf2b91838c57704262dd482af6733ff2cb63d47c7547251e12ce9c057ee8acf1c69d25287b29a07fa7c69a6159
   languageName: node
   linkType: hard
 
-"@pcd/passport-ui@npm:0.6.2":
-  version: 0.6.2
-  resolution: "@pcd/passport-ui@npm:0.6.2"
+"@pcd/passport-ui@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/passport-ui@npm:0.7.1"
   dependencies:
-    "@pcd/pcd-types": 0.6.3
     pako: ^2.1.0
     qr-image: ^3.2.0
     react: ^18.2.0
     styled-components: ^5.3.9
-  checksum: c95025aa313672169ad4a2fd3203e95f9e816d3051c4fff464459ebf39dfb899bd4008591a9456326725018d43ec993b3150cb2357066933b1e7381e72f78f94
+  checksum: d29c21284c3df00d647f8735efff9e6610722b774fbe0754a744e2aa39ca883ffa7bdbb95cb3c763d37d5a6b22460df0b006f454907c3791b8fa3d7224d61c9a
   languageName: node
   linkType: hard
 
-"@pcd/pcd-types@npm:0.6.3, @pcd/pcd-types@npm:^0.6.2":
-  version: 0.6.3
-  resolution: "@pcd/pcd-types@npm:0.6.3"
-  checksum: c65c84f835750612133dcbbbd39200647ad49b965ae29a3794af1f0bb9085d3abcaca0bed3a7e21d81b044b91321db58cdf9cbbac3d9c9e74b17efc5c318292b
-  languageName: node
-  linkType: hard
-
-"@pcd/rsa-pcd@npm:0.1.2":
-  version: 0.1.2
-  resolution: "@pcd/rsa-pcd@npm:0.1.2"
+"@pcd/pcd-collection@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/pcd-collection@npm:0.7.1"
   dependencies:
-    "@pcd/passport-ui": 0.6.2
-    "@pcd/pcd-types": 0.6.3
+    "@pcd/emitter": 0.1.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/semaphore-identity-pcd": 0.7.1
     chai: ^4.3.7
-    js-sha256: ^0.9.0
+    lodash: ^4.17.21
+    uuid: ^9.0.0
+  checksum: 1bc459f69037fece12c6e0d960e2f531e5550380ca57bfabeb67ae6cf2f2d2cb88553ff43b59df4db2d62dc0038077ca9243e14aae4b84013de41455e1c9a48b
+  languageName: node
+  linkType: hard
+
+"@pcd/pcd-types@npm:0.7.1, @pcd/pcd-types@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/pcd-types@npm:0.7.1"
+  checksum: dd9693b46727c6384a5967d091802f1dae4c282c55e945e9da60e9564b5488eae18783e9c24a56f7a02efaf8db62de8d736a9c12d9cf30a4b688a700e28914df
+  languageName: node
+  linkType: hard
+
+"@pcd/rsa-pcd@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@pcd/rsa-pcd@npm:0.2.1"
+  dependencies:
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/util": 0.1.1
+    chai: ^4.3.7
     json-bigint: ^1.0.0
     node-rsa: ^1.1.1
     react: ^18.2.0
     styled-components: ^5.3.9
     uuid: ^9.0.0
-  checksum: 59c1b800f4d4cd3bae0d24237c460bd63483c3eab80f1eaf3f88c0c1d13c1644c2bb7699d2a76c2fa2e99c78fc2457cddba813be455995e35bb463295faccc8a
+  checksum: 4ea226c4c0f24ac4f9f067f4621dc079a9eee96838f69a2b155e9b5ac02c0ddb5dad4f16a2f4d6ff0b0f82a7be271f741e9ce102d0863fcaa20e2caccef2cdce
   languageName: node
   linkType: hard
 
-"@pcd/rsa-ticket-pcd@npm:0.1.2":
-  version: 0.1.2
-  resolution: "@pcd/rsa-ticket-pcd@npm:0.1.2"
+"@pcd/rsa-ticket-pcd@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@pcd/rsa-ticket-pcd@npm:0.2.1"
   dependencies:
-    "@pcd/passport-ui": 0.6.2
-    "@pcd/pcd-types": 0.6.3
-    "@pcd/rsa-pcd": 0.1.2
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/rsa-pcd": 0.2.1
     chai: ^4.3.7
-    js-sha256: ^0.9.0
     json-bigint: ^1.0.0
     node-rsa: ^1.1.1
     react: ^18.2.0
     styled-components: ^5.3.9
     uuid: ^9.0.0
-  checksum: 6fac52d044ec725fd85e34d1372f9381d286830862880dd44fd5a8a8ad511e773627f5149b8def832f12a22a5ecf9699b304f55ba01d45df67bddf09b6d27ad7
+  checksum: daafe8cd844062906a84e4c8b2bdbebf3d4ceb2d5b18cefcf7ebcb1ddbcff58e49ebae4530c7403d63ab8323318a115517195e00a380a9d3539a34970c1f8c06
   languageName: node
   linkType: hard
 
-"@pcd/semaphore-group-pcd@npm:0.6.2":
-  version: 0.6.2
-  resolution: "@pcd/semaphore-group-pcd@npm:0.6.2"
+"@pcd/semaphore-group-pcd@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/semaphore-group-pcd@npm:0.7.1"
   dependencies:
-    "@pcd/passport-ui": 0.6.2
-    "@pcd/pcd-types": 0.6.3
-    "@pcd/semaphore-identity-pcd": 0.6.2
-    "@pcd/semaphore-signature-pcd": 0.6.2
-    "@semaphore-protocol/group": ^3.10.0
-    "@semaphore-protocol/identity": ^3.10.0
-    "@semaphore-protocol/proof": ^3.10.0
-    js-sha256: ^0.9.0
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/semaphore-identity-pcd": 0.7.1
+    "@pcd/semaphore-signature-pcd": 0.7.1
+    "@pcd/util": 0.1.1
+    "@semaphore-protocol/group": ^3.11.0
+    "@semaphore-protocol/identity": ^3.11.0
+    "@semaphore-protocol/proof": ^3.11.0
     json-bigint: ^1.0.0
     react: 18.2.0
     styled-components: ^5.3.9
     typescript: ^4.9.5
     uuid: ^9.0.0
-  checksum: b723bb00655732092eaf71ec99506f3183df71142fde03aa8bc49269c2a55cf3fce6bfc5d68eb50bdcaddc61616a9c0ac67e23ece8a340503fe99f093f3a3142
+  checksum: 2d0f8a8a861ec8b1373d63450d1d4a8bbfb4d5e62e6f32c7493295845c986c6e97b6606dd6d972b45d0943396122b86d94e9741537972a347d0274d82a998b9d
   languageName: node
   linkType: hard
 
-"@pcd/semaphore-identity-pcd@npm:0.6.2":
-  version: 0.6.2
-  resolution: "@pcd/semaphore-identity-pcd@npm:0.6.2"
+"@pcd/semaphore-identity-pcd@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/semaphore-identity-pcd@npm:0.7.1"
   dependencies:
-    "@pcd/passport-ui": 0.6.2
-    "@pcd/pcd-types": 0.6.3
-    "@semaphore-protocol/group": ^3.10.0
-    "@semaphore-protocol/identity": ^3.10.0
-    "@semaphore-protocol/proof": ^3.10.0
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/util": 0.1.1
+    "@semaphore-protocol/identity": ^3.11.0
     json-bigint: ^1.0.0
     react: ^18.2.0
     styled-components: ^5.3.9
     uuid: ^9.0.0
-  checksum: 286b4c47947fe6ac388590a6caaf9397171986479168e4c050d4bc42bea278285a045ef36e761b1f1f73c08eb8f2b519e54829de724df9cfac403652f9403172
+  checksum: c17bd52bf12fc0d0bc49fc51714acdf10c7ec9ec6115c8d5a5b212e4ad26d214663fa624598a1358e9c9fa16388dbd7a5c0d25a86876772759aee51f227dab6f
   languageName: node
   linkType: hard
 
-"@pcd/semaphore-signature-pcd@npm:0.6.2":
-  version: 0.6.2
-  resolution: "@pcd/semaphore-signature-pcd@npm:0.6.2"
+"@pcd/semaphore-signature-pcd@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/semaphore-signature-pcd@npm:0.7.1"
   dependencies:
-    "@pcd/passport-ui": 0.6.2
-    "@pcd/pcd-types": 0.6.3
-    "@pcd/semaphore-identity-pcd": 0.6.2
-    "@semaphore-protocol/group": ^3.10.0
-    "@semaphore-protocol/identity": ^3.10.0
-    "@semaphore-protocol/proof": ^3.10.0
-    js-sha256: ^0.9.0
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/semaphore-identity-pcd": 0.7.1
+    "@pcd/util": 0.1.1
+    "@semaphore-protocol/group": ^3.11.0
+    "@semaphore-protocol/identity": ^3.11.0
+    "@semaphore-protocol/proof": ^3.11.0
     json-bigint: ^1.0.0
     react: ^18.2.0
     styled-components: ^5.3.9
     uuid: ^9.0.0
-  checksum: 43d886999f05170235d0eb39e271dad66dd3a335cf6c4604da8b89421f519b8c58ec35af435c617bbc66f5e2bc084cf62b241a97e68e96d346487eaea7efc44c
+  checksum: b7ed96a0f1e78954eae82f4aa3e40fe818cceed680fab31bb5b6f6bed09f718f4ec94fff5c40aa96c9c48836ac02c0dd27cc546c91a1c98b74a02de7a29d8fe0
   languageName: node
   linkType: hard
 
-"@pcd/webauthn-pcd@npm:0.6.2":
-  version: 0.6.2
-  resolution: "@pcd/webauthn-pcd@npm:0.6.2"
+"@pcd/util@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@pcd/util@npm:0.1.1"
   dependencies:
-    "@pcd/pcd-types": 0.6.3
+    chai: ^4.3.7
+    js-sha256: ^0.10.1
+    uuid: ^9.0.0
+  checksum: c50404423f99e3b113de60db0a364765157e966c1ae20dd5cc12313c31b7547193b33e67416c336fb514735b6c089da12c8166d1360eaa73924cae4ba49fb0f1
+  languageName: node
+  linkType: hard
+
+"@pcd/webauthn-pcd@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@pcd/webauthn-pcd@npm:0.7.1"
+  dependencies:
+    "@pcd/passport-crypto": 0.7.1
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": 0.7.1
+    "@pcd/util": 0.1.1
     "@simplewebauthn/browser": ^7.2.0
     "@simplewebauthn/server": ^7.2.0
     "@simplewebauthn/typescript-types": ^7.0.0
-    "@types/expect": ^24.3.0
     "@types/jest": ^29.5.0
     "@types/json-bigint": ^1.0.1
     json-bigint: ^1.0.0
+    styled-components: ^5.3.9
     typescript: ^4.5.2
     uuid: ^9.0.0
-  checksum: 71eac69c1d2e4651a16e33657f63b1b67f0619204ca3dc500a7b73dae68c273ed149097dab9d850602fecd8e9963967cf53c3d21e2ab973e8b7555a4bfd53177
+  checksum: ee59d2c2993b3bbd785bee7f1a75a8144deb6b1c772d9e65ab33077e52579f0367e0ebd8d07d0aa36f014d4aa64b73926910c5448fe8b6aff1886bc247c75989
+  languageName: node
+  linkType: hard
+
+"@pcd/zk-eddsa-event-ticket-pcd@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@pcd/zk-eddsa-event-ticket-pcd@npm:0.1.1"
+  dependencies:
+    "@pcd/eddsa-pcd": 0.2.1
+    "@pcd/eddsa-ticket-pcd": 0.2.1
+    "@pcd/passport-ui": 0.7.1
+    "@pcd/pcd-types": ^0.7.1
+    "@pcd/semaphore-identity-pcd": 0.7.1
+    "@pcd/semaphore-signature-pcd": 0.7.1
+    "@pcd/util": 0.1.1
+    "@semaphore-protocol/identity": ^3.11.0
+    circomlibjs: ^0.1.7
+    json-bigint: ^1.0.0
+    snarkjs: ^0.7.0
+    styled-components: ^5.3.9
+    uuid: ^9.0.0
+  checksum: ef2333473425774867efb1253828c6ef9852213d12431d4e7647f35146c2b481ec8a39a723f00b12745dbcd9b37164b8b669487a5be82f6f2d4b70e7e4a40fe2
   languageName: node
   linkType: hard
 
@@ -1996,45 +2052,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semaphore-protocol/group@npm:^3.10.0":
-  version: 3.11.0
-  resolution: "@semaphore-protocol/group@npm:3.11.0"
+"@semaphore-protocol/group@npm:^3.11.0":
+  version: 3.12.2
+  resolution: "@semaphore-protocol/group@npm:3.12.2"
   dependencies:
     "@ethersproject/bignumber": ^5.7.0
     "@ethersproject/bytes": ^5.7.0
     "@ethersproject/keccak256": ^5.7.0
     "@zk-kit/incremental-merkle-tree": 1.1.0
-  checksum: b106950ba2215427bbb76ea3e0898820c07586c35ff02cd4a7793bc2b085049677ac7328fbb8207ac958ee092462416ab11d377f6f8c4654d6ef807dd2426885
+  checksum: 9f2716c627f8144e784957c107d409e6a7c16e1823bf8c0d69f240ad461a3a8f911cd0ab71a9a0db12a471351cb5ec14506cc6be2289d6fd9261eb890026415c
   languageName: node
   linkType: hard
 
-"@semaphore-protocol/identity@npm:^3.10.0":
-  version: 3.11.0
-  resolution: "@semaphore-protocol/identity@npm:3.11.0"
+"@semaphore-protocol/identity@npm:^3.11.0":
+  version: 3.12.2
+  resolution: "@semaphore-protocol/identity@npm:3.12.2"
   dependencies:
     "@ethersproject/bignumber": ^5.5.0
     "@ethersproject/keccak256": ^5.7.0
     "@ethersproject/random": ^5.5.1
     "@ethersproject/strings": ^5.6.1
     js-sha512: ^0.8.0
-  checksum: 7f2fa97010aa2c84af0b3347b066e809e047e9b60ac4c288860359cca6847aca9bc5307b034a954294eb411a10e3328c8d5be27bd8dce35293b912a8b32547cd
+  checksum: 0ce3d5af074d9dd08763e06f154ed9a15bf94cfcab8a024c466bd259fb855b1ab2ddc913aed2fce47be3d7b1bce5362a587aef69a22ce4ad6475f213d0770475
   languageName: node
   linkType: hard
 
-"@semaphore-protocol/proof@npm:^3.10.0":
-  version: 3.11.0
-  resolution: "@semaphore-protocol/proof@npm:3.11.0"
+"@semaphore-protocol/proof@npm:^3.11.0":
+  version: 3.12.2
+  resolution: "@semaphore-protocol/proof@npm:3.12.2"
   dependencies:
     "@ethersproject/bignumber": ^5.5.0
     "@ethersproject/bytes": ^5.7.0
     "@ethersproject/keccak256": ^5.7.0
     "@ethersproject/strings": ^5.5.0
     "@zk-kit/incremental-merkle-tree": 0.4.3
-    snarkjs: 0.4.16
+    snarkjs: 0.7.1
   peerDependencies:
-    "@semaphore-protocol/group": 3.11.0
-    "@semaphore-protocol/identity": 3.11.0
-  checksum: dae1c04cf6d01325986cb45e2de4202bb2c50050dfa2d95ea0f7553f75111c793e718e8f09fd03ae1c8c74a0313bbb1460e966d8b6e594d826445f5f6c24aa6d
+    "@semaphore-protocol/group": 3.12.2
+    "@semaphore-protocol/identity": 3.12.2
+  checksum: a753e0dd7b40ebecc1220c700bda848971b0000aa0e63511d42bfcb4dd906c4e38c3ec25a6496d0a4f8c6c281abc1d0816409a066336efc6564fec66a3be3274
   languageName: node
   linkType: hard
 
@@ -2308,15 +2364,6 @@ __metadata:
   dependencies:
     dotenv: "*"
   checksum: a1f524da7dc18b09bdb6c2613b9abbbe8ca575621cce4625efc7f98daf2ba07c7dbab622c9bb394507a12c5c515f9cbbbba4aeec17b801c88faeb8e8e656d460
-  languageName: node
-  linkType: hard
-
-"@types/expect@npm:^24.3.0":
-  version: 24.3.0
-  resolution: "@types/expect@npm:24.3.0"
-  dependencies:
-    expect: "*"
-  checksum: 8d017b49b1b11fcf1c9bd2807bf7e1d49e34a4cdd6c40a40fbeb21a9d5873eb0d159043c647dce9ebabb589fef7833796ae17fbf7736233a32769797a3db4db5
   languageName: node
   linkType: hard
 
@@ -2817,10 +2864,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"big-integer@npm:^1.6.42, big-integer@npm:^1.6.48":
-  version: 1.6.51
-  resolution: "big-integer@npm:1.6.51"
-  checksum: 3d444173d1b2e20747e2c175568bedeebd8315b0637ea95d75fd27830d3b8e8ba36c6af40374f36bdaea7b5de376dcada1b07587cb2a79a928fccdb6e6e3c518
+"bfj@npm:^7.0.2":
+  version: 7.1.0
+  resolution: "bfj@npm:7.1.0"
+  dependencies:
+    bluebird: ^3.7.2
+    check-types: ^11.2.3
+    hoopy: ^0.1.4
+    jsonpath: ^1.1.1
+    tryer: ^1.0.1
+  checksum: 36da9ed36c60f377a3f43bb0433092af7dc40442914b8155a1330ae86b1905640baf57e9c195ab83b36d6518b27cf8ed880adff663aa444c193be149e027d722
   languageName: node
   linkType: hard
 
@@ -2863,10 +2916,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"blakejs@npm:^1.1.0":
-  version: 1.2.1
-  resolution: "blakejs@npm:1.2.1"
-  checksum: d699ba116cfa21d0b01d12014a03e484dd76d483133e6dc9eb415aa70a119f08beb3bcefb8c71840106a00b542cba77383f8be60cd1f0d4589cb8afb922eefbe
+"bluebird@npm:^3.7.2":
+  version: 3.7.2
+  resolution: "bluebird@npm:3.7.2"
+  checksum: 869417503c722e7dc54ca46715f70e15f4d9c602a423a02c825570862d12935be59ed9c7ba34a9b31f186c017c23cac6b54e35446f8353059c101da73eac22ef
   languageName: node
   linkType: hard
 
@@ -3194,6 +3247,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"check-types@npm:^11.2.3":
+  version: 11.2.3
+  resolution: "check-types@npm:11.2.3"
+  checksum: f99ff09ae65e63cfcfa40a1275c0a70d8c43ffbf9ac35095f3bf030cc70361c92e075a9975a1144329e50b4fe4620be6bedb4568c18abc96071a3e23aed3ed8e
+  languageName: node
+  linkType: hard
+
 "chownr@npm:^2.0.0":
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
@@ -3225,14 +3285,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"circom_runtime@npm:0.1.17":
-  version: 0.1.17
-  resolution: "circom_runtime@npm:0.1.17"
+"circom_runtime@npm:0.1.24":
+  version: 0.1.24
+  resolution: "circom_runtime@npm:0.1.24"
   dependencies:
-    ffjavascript: 0.2.48
+    ffjavascript: 0.2.60
   bin:
     calcwit: calcwit.js
-  checksum: 595fc0cc3a62ba5daf8d849feae41c48805c0df43965f85dde4dc434efb607e455fa7801d41c1feacfe0c3c71952a45cd3985abf26fde40c54138392891afd8c
+  checksum: 0654649ed64ace5562cec025648422970df885e79048b7942e283ef50f43142673acfd752ac2851917a81c43d4d42d37f5fdfc8df71d59ee81b873c19ea81a31
   languageName: node
   linkType: hard
 
@@ -3259,9 +3319,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "client@workspace:apps/client"
   dependencies:
-    "@pcd/eddsa-pcd": ^0.1.1
-    "@pcd/passport-interface": ^0.6.2
-    "@pcd/pcd-types": ^0.6.2
+    "@pcd/eddsa-pcd": ^0.2.1
+    "@pcd/passport-interface": ^0.7.1
+    "@pcd/pcd-types": ^0.7.1
+    "@pcd/zk-eddsa-event-ticket-pcd": ^0.1.1
     "@types/react": ^18.2.21
     "@types/react-dom": ^18.2.7
     assert: ^2.0.0
@@ -3346,6 +3407,13 @@ __metadata:
   version: 1.1.0
   resolution: "console-control-strings@npm:1.1.0"
   checksum: 8755d76787f94e6cf79ce4666f0c5519906d7f5b02d4b884cf41e11dcd759ed69c57da0670afd9236d229a46e0f9cf519db0cd829c6dca820bb5a5c3def584ed
+  languageName: node
+  linkType: hard
+
+"constants-browserify@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "constants-browserify@npm:1.0.0"
+  checksum: f7ac8c6d0b6e4e0c77340a1d47a3574e25abd580bfd99ad707b26ff7618596cf1a5e5ce9caf44715e9e01d4a5d12cb3b4edaf1176f34c19adb2874815a56e64f
   languageName: node
   linkType: hard
 
@@ -3575,6 +3643,13 @@ __metadata:
   dependencies:
     type-detect: ^4.0.0
   checksum: 7f6d30cb41c713973dc07eaadded848b2ab0b835e518a88b91bea72f34e08c4c71d167a722a6f302d3a6108f05afd8e6d7650689a84d5d29ec7fe6220420397f
+  languageName: node
+  linkType: hard
+
+"deep-is@npm:~0.1.3":
+  version: 0.1.4
+  resolution: "deep-is@npm:0.1.4"
+  checksum: edb65dd0d7d1b9c40b2f50219aef30e116cedd6fc79290e740972c132c09106d2e80aa0bc8826673dd5a00222d4179c84b36a790eef63a4c4bca75a37ef90804
   languageName: node
   linkType: hard
 
@@ -3861,6 +3936,59 @@ __metadata:
   languageName: node
   linkType: hard
 
+"escodegen@npm:^1.8.1":
+  version: 1.14.3
+  resolution: "escodegen@npm:1.14.3"
+  dependencies:
+    esprima: ^4.0.1
+    estraverse: ^4.2.0
+    esutils: ^2.0.2
+    optionator: ^0.8.1
+    source-map: ~0.6.1
+  dependenciesMeta:
+    source-map:
+      optional: true
+  bin:
+    escodegen: bin/escodegen.js
+    esgenerate: bin/esgenerate.js
+  checksum: 381cdc4767ecdb221206bbbab021b467bbc2a6f5c9a99c9e6353040080bdd3dfe73d7604ad89a47aca6ea7d58bc635f6bd3fbc8da9a1998e9ddfa8372362ccd0
+  languageName: node
+  linkType: hard
+
+"esprima@npm:1.2.2":
+  version: 1.2.2
+  resolution: "esprima@npm:1.2.2"
+  bin:
+    esparse: ./bin/esparse.js
+    esvalidate: ./bin/esvalidate.js
+  checksum: 4f10006f0e315f2f7d8cf6630e465f183512f1ab2e862b11785a133ce37ed1696573deefb5256e510eaa4368342b13b393334477f6ccdcdb8f10e782b0f5e6dc
+  languageName: node
+  linkType: hard
+
+"esprima@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "esprima@npm:4.0.1"
+  bin:
+    esparse: ./bin/esparse.js
+    esvalidate: ./bin/esvalidate.js
+  checksum: b45bc805a613dbea2835278c306b91aff6173c8d034223fa81498c77dcbce3b2931bf6006db816f62eacd9fd4ea975dfd85a5b7f3c6402cfd050d4ca3c13a628
+  languageName: node
+  linkType: hard
+
+"estraverse@npm:^4.2.0":
+  version: 4.3.0
+  resolution: "estraverse@npm:4.3.0"
+  checksum: a6299491f9940bb246124a8d44b7b7a413a8336f5436f9837aaa9330209bd9ee8af7e91a654a3545aee9c54b3308e78ee360cef1d777d37cfef77d2fa33b5827
+  languageName: node
+  linkType: hard
+
+"esutils@npm:^2.0.2":
+  version: 2.0.3
+  resolution: "esutils@npm:2.0.3"
+  checksum: 22b5b08f74737379a840b8ed2036a5fb35826c709ab000683b092d9054e5c2a82c27818f12604bfc2a9a76b90b6834ef081edbc1c7ae30d1627012e067c6ec87
+  languageName: node
+  linkType: hard
+
 "etag@npm:~1.8.1":
   version: 1.8.1
   resolution: "etag@npm:1.8.1"
@@ -3927,10 +4055,12 @@ __metadata:
 "example-consumer@workspace:.":
   version: 0.0.0-use.local
   resolution: "example-consumer@workspace:."
+  dependencies:
+    constants-browserify: ^1.0.0
   languageName: unknown
   linkType: soft
 
-"expect@npm:*, expect@npm:^29.0.0":
+"expect@npm:^29.0.0":
   version: 29.6.4
   resolution: "expect@npm:29.6.4"
   dependencies:
@@ -3989,26 +4119,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastfile@npm:0.0.19":
-  version: 0.0.19
-  resolution: "fastfile@npm:0.0.19"
-  checksum: 6179bdd7c21be9882294dae66103795c099594098b51958bcf08a4545c91387321b43511730d0542a5a9ed8c5ec9069c065e065fd67255453ac900a23895dac1
+"fast-levenshtein@npm:~2.0.6":
+  version: 2.0.6
+  resolution: "fast-levenshtein@npm:2.0.6"
+  checksum: 92cfec0a8dfafd9c7a15fba8f2cc29cd0b62b85f056d99ce448bbcd9f708e18ab2764bda4dd5158364f4145a7c72788538994f0d1787b956ef0d1062b0f7c24c
   languageName: node
   linkType: hard
 
-"ffjavascript@npm:0.2.48":
-  version: 0.2.48
-  resolution: "ffjavascript@npm:0.2.48"
-  dependencies:
-    big-integer: ^1.6.48
-    wasmbuilder: ^0.0.12
-    wasmcurves: 0.1.0
-    web-worker: ^1.2.0
-  checksum: 68beae9a4f642c06656685353b84fd7655020ca0e628ea046e94452ab779587953cc45cde106d74b68be7177b49c8f19b105d6552c4a1d715e784ae9e7c9ed34
+"fastfile@npm:0.0.20":
+  version: 0.0.20
+  resolution: "fastfile@npm:0.0.20"
+  checksum: e5d6e5f57a9b58c9534202e477cbffbca2182c407171950695ddb5c3e6b89554bc8561fbb6e370c99e371a8f23486a23fbaca527827886cec4897d481cbd03b6
   languageName: node
   linkType: hard
 
-"ffjavascript@npm:^0.2.45, ffjavascript@npm:^0.2.48":
+"ffjavascript@npm:0.2.60, ffjavascript@npm:^0.2.45, ffjavascript@npm:^0.2.48":
   version: 0.2.60
   resolution: "ffjavascript@npm:0.2.60"
   dependencies:
@@ -4320,6 +4445,13 @@ __metadata:
   dependencies:
     react-is: ^16.7.0
   checksum: b1538270429b13901ee586aa44f4cc3ecd8831c061d06cb8322e50ea17b3f5ce4d0e2e66394761e6c8e152cd8c34fb3b4b690116c6ce2bd45b18c746516cb9e8
+  languageName: node
+  linkType: hard
+
+"hoopy@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "hoopy@npm:0.1.4"
+  checksum: cfa60c7684c5e1ee4efe26e167bc54b73f839ffb59d1d44a5c4bf891e26b4f5bcc666555219a98fec95508fea4eda3a79540c53c05cc79afc1f66f9a238f4d9e
   languageName: node
   linkType: hard
 
@@ -4701,6 +4833,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-sha256@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "js-sha256@npm:0.10.1"
+  checksum: 6eb5c9f95aa902cec1930f036deb3bc664024b75fede456c0ac74b855797776c18620f47efec36787077a56ba2f3b8d6aacc7733ff8a2b5bb9ce6b655a35c5e6
+  languageName: node
+  linkType: hard
+
 "js-sha256@npm:^0.9.0":
   version: 0.9.0
   resolution: "js-sha256@npm:0.9.0"
@@ -4774,19 +4913,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"libsodium-wrappers@npm:^0.7.11":
-  version: 0.7.11
-  resolution: "libsodium-wrappers@npm:0.7.11"
+"jsonpath@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "jsonpath@npm:1.1.1"
   dependencies:
-    libsodium: ^0.7.11
-  checksum: 6a6ef47b2213e3fb4687196c28fee4c9885f70d89547d845e62d96014d3d5ad9f59cb05fadc601debc0031a3cfd0b9b416d7efbeb5bf66db6aa0ed69f55a6293
+    esprima: 1.2.2
+    static-eval: 2.0.2
+    underscore: 1.12.1
+  checksum: 5480d8e9e424fe2ed4ade6860b6e2cefddb21adb3a99abe0254cd9428e8ef9b0c9fb5729d6a5a514e90df50d645ccea9f3be48d627570e6222dd5dadc28eba7b
   languageName: node
   linkType: hard
 
-"libsodium@npm:^0.7.11":
-  version: 0.7.11
-  resolution: "libsodium@npm:0.7.11"
-  checksum: 0a3493ac1829d1e346178b6984c4eb449dc77157c906876441386c0c653142e3fa56f623ce980bb50e580196578689298c9cd406ce6d514904090e370c6bc0f7
+"levn@npm:~0.3.0":
+  version: 0.3.0
+  resolution: "levn@npm:0.3.0"
+  dependencies:
+    prelude-ls: ~1.1.2
+    type-check: ~0.3.2
+  checksum: 0d084a524231a8246bb10fec48cdbb35282099f6954838604f3c7fc66f2e16fa66fd9cc2f3f20a541a113c4dafdf181e822c887c8a319c9195444e6c64ac395e
+  languageName: node
+  linkType: hard
+
+"libsodium-sumo@npm:^0.7.13":
+  version: 0.7.13
+  resolution: "libsodium-sumo@npm:0.7.13"
+  checksum: d0905530c53c27a0c01348eed8abc2ecf3725c0647545cc528ea4bbd0ee63b7a471b56abefec5b293086ee64b5ba7cf911a655cd2c36f400a4bfec6e2d152ebd
+  languageName: node
+  linkType: hard
+
+"libsodium-wrappers-sumo@npm:^0.7.11":
+  version: 0.7.13
+  resolution: "libsodium-wrappers-sumo@npm:0.7.13"
+  dependencies:
+    libsodium-sumo: ^0.7.13
+  checksum: cdaa7ae5d64e71e860b40b5f2fbaec156adc7bc5606f7d32655b6ab84c9878fd90b3a41e99cb96380f0b5727d1ee1c6ad5b440bff35ce8289832e5c8cac99973
   languageName: node
   linkType: hard
 
@@ -5329,13 +5489,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"noble-ed25519@npm:^1.2.6":
-  version: 1.2.6
-  resolution: "noble-ed25519@npm:1.2.6"
-  checksum: 36bd4983abca56e820a9f57e15aa0232959f7191de4675fd8212b8fa15d7d4a0bd9c5093b6131f9afa0ca5639fac96ea15659368d50970070d8b76cc28fd1aec
-  languageName: node
-  linkType: hard
-
 "node-addon-api@npm:^3.0.0":
   version: 3.2.1
   resolution: "node-addon-api@npm:3.2.1"
@@ -5543,6 +5696,20 @@ __metadata:
   dependencies:
     wrappy: 1
   checksum: cd0a88501333edd640d95f0d2700fbde6bff20b3d4d9bdc521bdd31af0656b5706570d6c6afe532045a20bb8dc0849f8332d6f2a416e0ba6d3d3b98806c7db68
+  languageName: node
+  linkType: hard
+
+"optionator@npm:^0.8.1":
+  version: 0.8.3
+  resolution: "optionator@npm:0.8.3"
+  dependencies:
+    deep-is: ~0.1.3
+    fast-levenshtein: ~2.0.6
+    levn: ~0.3.0
+    prelude-ls: ~1.1.2
+    type-check: ~0.3.2
+    word-wrap: ~1.2.3
+  checksum: b8695ddf3d593203e25ab0900e265d860038486c943ff8b774f596a310f8ceebdb30c6832407a8198ba3ec9debe1abe1f51d4aad94843612db3b76d690c61d34
   languageName: node
   linkType: hard
 
@@ -5771,6 +5938,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prelude-ls@npm:~1.1.2":
+  version: 1.1.2
+  resolution: "prelude-ls@npm:1.1.2"
+  checksum: c4867c87488e4a0c233e158e4d0d5565b609b105d75e4c05dc760840475f06b731332eb93cc8c9cecb840aa8ec323ca3c9a56ad7820ad2e63f0261dadcb154e4
+  languageName: node
+  linkType: hard
+
 "pretty-format@npm:^29.0.0, pretty-format@npm:^29.6.3":
   version: 29.6.3
   resolution: "pretty-format@npm:29.6.3"
@@ -5855,15 +6029,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"r1csfile@npm:0.0.35":
-  version: 0.0.35
-  resolution: "r1csfile@npm:0.0.35"
+"r1csfile@npm:0.0.47":
+  version: 0.0.47
+  resolution: "r1csfile@npm:0.0.47"
   dependencies:
     "@iden3/bigarray": 0.0.2
-    "@iden3/binfileutils": 0.0.10
-    fastfile: 0.0.19
-    ffjavascript: 0.2.48
-  checksum: 84f7b4eab5bcdd6a3f6d699998c9479a5eff8d670383d4f0c5afc08431f45353abab9a8b07eeabaef89807e24b0ba50611d4d6280eb6c3a7483e1487a91f0ac6
+    "@iden3/binfileutils": 0.0.11
+    fastfile: 0.0.20
+    ffjavascript: 0.2.60
+  checksum: edeb325b83851a71cbca2e5de56eb622ee5347ecae921b526a5fc484c4825b6b30c73b6fde40e9bc5112b9d21e046af885bf212ed9cee2efbc6de93b8454ec06
   languageName: node
   linkType: hard
 
@@ -5989,13 +6163,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readline@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "readline@npm:1.3.0"
-  checksum: dfaf8e6ac20408ea00d650e95f7bb47f77c4c62dd12ed7fb51731ee84532a2f3675fcdc4cab4923dc1eef227520a2e082a093215190907758bea9f585b19438e
-  languageName: node
-  linkType: hard
-
 "regenerator-runtime@npm:^0.13.7":
   version: 0.13.11
   resolution: "regenerator-runtime@npm:0.13.11"
@@ -6116,7 +6283,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server@workspace:apps/server"
   dependencies:
-    "@pcd/eddsa-pcd": ^0.1.1
+    "@pcd/eddsa-pcd": ^0.2.1
+    "@pcd/zk-eddsa-event-ticket-pcd": ^0.1.1
     "@types/cors": ^2.8.13
     "@types/dotenv": ^8.2.0
     "@types/express": ^4.17.17
@@ -6217,23 +6385,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"snarkjs@npm:0.4.16":
-  version: 0.4.16
-  resolution: "snarkjs@npm:0.4.16"
+"snarkjs@npm:0.7.1, snarkjs@npm:^0.7.0":
+  version: 0.7.1
+  resolution: "snarkjs@npm:0.7.1"
   dependencies:
-    "@iden3/binfileutils": 0.0.10
+    "@iden3/binfileutils": 0.0.11
+    bfj: ^7.0.2
     blake2b-wasm: ^2.4.0
-    circom_runtime: 0.1.17
+    circom_runtime: 0.1.24
     ejs: ^3.1.6
-    fastfile: 0.0.19
-    ffjavascript: 0.2.48
+    fastfile: 0.0.20
+    ffjavascript: 0.2.60
     js-sha3: ^0.8.0
     logplease: ^1.2.15
-    r1csfile: 0.0.35
-    readline: ^1.3.0
+    r1csfile: 0.0.47
   bin:
     snarkjs: build/cli.cjs
-  checksum: e26c907493fe7bc78563a918391602ca4166060667c1936cf65fba09ca39a5019288acb1c6d695ff5a0c6cf300a97a8bfb613e84df268b4e2108e2e2c28db274
+  checksum: a6cf652962d8e53474fad8aecf884ebb11ddca707e237036e268266ca2760687398043bf47e66eb2bc627435e54c795863f4629ddae99311dbec27f3cdc9167f
   languageName: node
   linkType: hard
 
@@ -6258,7 +6426,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.6.1":
+"source-map@npm:^0.6.1, source-map@npm:~0.6.1":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 59ce8640cf3f3124f64ac289012c2b8bd377c238e316fb323ea22fbfe83da07d81e000071d7242cad7a23cd91c7de98e4df8830ec3f133cb6133a5f6e9f67bc2
@@ -6294,6 +6462,15 @@ __metadata:
   dependencies:
     escape-string-regexp: ^2.0.0
   checksum: 052bf4d25bbf5f78e06c1d5e67de2e088b06871fa04107ca8d3f0e9d9263326e2942c8bedee3545795fc77d787d443a538345eef74db2f8e35db3558c6f91ff7
+  languageName: node
+  linkType: hard
+
+"static-eval@npm:2.0.2":
+  version: 2.0.2
+  resolution: "static-eval@npm:2.0.2"
+  dependencies:
+    escodegen: ^1.8.1
+  checksum: 335a923c5ccb29add404ac23d0a55c0da6cee3071f6f67a7053aeac0dedc6dbfc53ac9269e9c25f403f5b7603a291ef47d7114f99bde241184f7aa3f9286dc32
   languageName: node
   linkType: hard
 
@@ -6478,6 +6655,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tryer@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "tryer@npm:1.0.1"
+  checksum: 1cf14d7f67c79613f054b569bfc9a89c7020d331573a812dfcf7437244e8f8e6eb6893b210cbd9cc217f67c1d72617f89793df231e4fe7d53634ed91cf3a89d1
+  languageName: node
+  linkType: hard
+
 "ts-node@npm:^10.9.1":
   version: 10.9.1
   resolution: "ts-node@npm:10.9.1"
@@ -6520,6 +6704,15 @@ __metadata:
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
+  languageName: node
+  linkType: hard
+
+"type-check@npm:~0.3.2":
+  version: 0.3.2
+  resolution: "type-check@npm:0.3.2"
+  dependencies:
+    prelude-ls: ~1.1.2
+  checksum: dd3b1495642731bc0e1fc40abe5e977e0263005551ac83342ecb6f4f89551d106b368ec32ad3fb2da19b3bd7b2d1f64330da2ea9176d8ddbfe389fb286eb5124
   languageName: node
   linkType: hard
 
@@ -6587,6 +6780,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"underscore@npm:1.12.1":
+  version: 1.12.1
+  resolution: "underscore@npm:1.12.1"
+  checksum: ec327603aa112b99fe9d74cd9bf3b3b7451465a9d2610ceab269a532e3f191650ab017903be34dc86fe406a11d04d8905a3b04dd4c129493e51bee09a3f3074c
+  languageName: node
+  linkType: hard
+
 "unique-filename@npm:^3.0.0":
   version: 3.0.0
   resolution: "unique-filename@npm:3.0.0"
@@ -6623,6 +6823,13 @@ __metadata:
   bin:
     update-browserslist-db: cli.js
   checksum: b98327518f9a345c7cad5437afae4d2ae7d865f9779554baf2a200fdf4bac4969076b679b1115434bd6557376bdd37ca7583d0f9b8f8e302d7d4cc1e91b5f231
+  languageName: node
+  linkType: hard
+
+"url-join@npm:4.0.1":
+  version: 4.0.1
+  resolution: "url-join@npm:4.0.1"
+  checksum: f74e868bf25dbc8be6a8d7237d4c36bb5b6c62c72e594d5ab1347fe91d6af7ccd9eb5d621e30152e4da45c2e9a26bec21390e911ab54a62d4d82e76028374ee5
   languageName: node
   linkType: hard
 
@@ -6687,25 +6894,6 @@ __metadata:
   version: 0.0.16
   resolution: "wasmbuilder@npm:0.0.16"
   checksum: a9c8ef4a0a770f71865dc7a75bc22e5204227ff6d70bed90e57f7df5939a013d4177947ea4c2c3fdfe6761b92d975908ea846c463ee635d1c95e1a3c434b7ee1
-  languageName: node
-  linkType: hard
-
-"wasmbuilder@npm:^0.0.12":
-  version: 0.0.12
-  resolution: "wasmbuilder@npm:0.0.12"
-  dependencies:
-    big-integer: ^1.6.48
-  checksum: 327b3c50b0e1e5e3aac9e218e0f96fdc638b7952ab86acc2ad53960371996826dbb0a8095edce482cf1d9c245d96884449701909bc962920aa7ec8241db01214
-  languageName: node
-  linkType: hard
-
-"wasmcurves@npm:0.1.0":
-  version: 0.1.0
-  resolution: "wasmcurves@npm:0.1.0"
-  dependencies:
-    big-integer: ^1.6.42
-    blakejs: ^1.1.0
-  checksum: 6bf6719e659a88904af0b98d152316e3b22435ca6a2cfc8bbf4530576806f17b2776b2c7d91d1a678fe0d51485a0d1748efcd080808c181c7977bee50b26efa9
   languageName: node
   linkType: hard
 
@@ -6779,6 +6967,13 @@ __metadata:
   dependencies:
     string-width: ^1.0.2 || 2 || 3 || 4
   checksum: d5fc37cd561f9daee3c80e03b92ed3e84d80dde3365a8767263d03dacfc8fa06b065ffe1df00d8c2a09f731482fcacae745abfbb478d4af36d0a891fad4834d3
+  languageName: node
+  linkType: hard
+
+"word-wrap@npm:~1.2.3":
+  version: 1.2.5
+  resolution: "word-wrap@npm:1.2.5"
+  checksum: f93ba3586fc181f94afdaff3a6fef27920b4b6d9eaefed0f428f8e07adea2a7f54a5f2830ce59406c8416f033f86902b91eb824072354645eea687dff3691ccb
   languageName: node
   linkType: hard
 

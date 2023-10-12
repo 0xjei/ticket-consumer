@@ -8,9 +8,9 @@
         "build": "parcel build --cache-dir .parcel-cache/"
     },
     "dependencies": {
-        "@pcd/eddsa-pcd": "^0.1.1",
-        "@pcd/passport-interface": "^0.6.2",
-        "@pcd/pcd-types": "^0.6.2",
+        "@pcd/eddsa-pcd": "^0.2.1",
+        "@pcd/passport-interface": "^0.7.1",
+        "@pcd/pcd-types": "^0.7.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.15.0"

@@ -1,7 +1,8 @@
-import { usePassportPopupSetup } from "@pcd/passport-interface"
+import { useZupassPopupSetup } from "@pcd/passport-interface"
+import React from "react"
 
 export default function Popup() {
-    const error = usePassportPopupSetup()
+    const error = useZupassPopupSetup()
 
     return <div>{error}</div>
 }
